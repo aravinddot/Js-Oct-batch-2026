@@ -69,11 +69,11 @@ const obj = {
 
 // dot notation
 
-//console.log(obj.array[0]) // static
+console.log(obj.array[0]) // static
 
-// bracket notation
+//bracket notation
 
-//console.log(obj['nestedObj']['name']) // dynamic
+console.log(obj['nestedObj']['name']) // dynamic
 
 
 // 3. Function

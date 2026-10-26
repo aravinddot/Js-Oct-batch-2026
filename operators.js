@@ -67,3 +67,67 @@ const f = 10
 // console.log(e <= f) // Less than or equal to
 
 
+
+// 4. Logical Operators
+
+
+const one = false
+const two = false
+
+// console.log(one && two) // Logical AND
+
+// console.log(one || two) // Logical OR
+
+// console.log(!one && !two) // Logical NOT
+
+
+
+// 5. increment and decrement operators
+
+
+let num = 10
+
+// num++ // num + 1 // post increment
+// console.log(num)
+
+//console.log(num++) // 10
+//console.log(++num) // pre increment 11
+// console.log(num)
+
+//console.log(--num) // pre decrement
+
+// console.log(num--) // post decrement
+
+// console.log(num) // check the value after post decrement
+
+
+// 6. string operators
+
+const automationTool = "playwright"
+
+// const programmingLanguage = "JavaScript"
+
+// console.log(automationTool + " " + programmingLanguage + " is a popular combination")
+
+// console.log(`${automationTool} ${programmingLanguage} is a popular combination`)
+
+
+
+//7. type of operator
+
+// console.log(typeof 12 === "number")
+
+
+// 8. ternary operator
+
+const age = 18
+
+// if(age > 18) {
+//     console.log('Adult')
+// } else {
+//     console.log('Minor')
+// }
+
+const result = age > 18 ? "Adult" : "minor"
+
+console.log(result)
