@@ -22,16 +22,16 @@ switch (env) {
     console.log("Unknown Enviroment");
 }
 
-// const a = 10
-// const b = "10"
+const a = 10
+const b = "10"
 
-// // console.log(a === b)
+// console.log(a === b)
 
-// if(a === b) {
-//     console.log("a and b are equal")
-// } else {
-//     console.log("a and b are not equal")
-// }
+if(a === b) {
+    console.log("a and b are equal")
+} else {
+    console.log("a and b are not equal")
+}
 
 const marks = 85;
 
